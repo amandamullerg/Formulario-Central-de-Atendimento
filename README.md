@@ -5,3 +5,5 @@
 
 
 Projeto introdutório de HTML/CSS com o objetivo de aprender a criar a base de um formulário utilizando HTML e CSS. Esse projeto foi inspirado pelo vídeo da [Rafaella Ballerini](https://www.youtube.com/watch?v=wwqOJ2o84S4) :v:.
+
+Para esse projeto também utilizei de modelagem 3D (através do Blender) para a imagem principal da página, resultando nesse render fofinho :point_down:
