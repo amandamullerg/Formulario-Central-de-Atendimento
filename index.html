@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Petti Shoppi</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <h1 class="header-logo">Petti Shoppi</h1>
+        </div>
+        <nav>
+            <a class="menu-opcoes" href="#">Início</a>
+            <a class="menu-opcoes" href="#">Loja</a>
+            <a class="menu-opcoes" href="#">Atendimento</a>
+            <a class="menu-opcoes" href="#">Entrar</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-image">
+            <img src="./imgs/puterpng.png" alt="Atendimento" class="main-image-atendimento" width="500px" height="500px">
+        </div>
+        <div class="main-formulario">
+            <div class="main-formulario-titulo">
+                <h2>Boas-vindas à Central de Atendimento!</h2>
+            </div>
+            <form>
+                <label>Preencha seus dados:</label>
+                <fieldset class="nomesobrenome">
+                    <input type="text" id="nome" placeholder="Nome">
+                    <input type="text" id="sobrenome" placeholder="Sobrenome">
+                </fieldset>
+                <input type="email" id="email" placeholder="E-mail">
+                <fieldset class="dddtelefone">
+                    <input type="text" maxlength="2" id="DDD" placeholder="DDD">
+                    <input type="text" maxlength="10" id="telefone" placeholder="Telefone">
+                </fieldset>
+                <label for="solicitacao" class="solicitacao-label">Como podemos te ajudar?</label>
+                <textarea maxlength="515" id="solicitacao" placeholder="Descreva sua solicitação aqui"></textarea><br>
+                <label class="atendimento-label">Desejo receber notificações do atendimento através de:</label><br>
+                <div id="check" class="atendimento-check">
+                    <input type="checkbox" class="atendimento-checkbox" id="check1">
+                    <label for="check1">WhatsApp</label>
+                    <input type="checkbox" class="atendimento-checkbox" id="check2">
+                    <label for="check2">E-mail</label>
+                    <input type="checkbox" class="atendimento-checkbox" id="check3">
+                    <label for="check3">Ligação</label>
+                </div>
+                <div class="formulario-fim">
+                    <p id="formulario-fim-aviso">Previsão de atendimento de 3 à 5 dias úteis</p>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-left">
+            <p class="header-frase">Nos siga nas redes sociais!</p>
+            <a href="#"><img src="./imgs/logoinstagram.png" alt="Instagram" class="footer-img"></img></a>
+            <a href="#"><img src="./imgs/logotwitter.png" alt="Twitter" class="footer-img"></img></a>
+            <a href="#"><img src="./imgs/logofacebook.png" alt="Facebook" class="footer-img"></img></a>
+        </div>
+        <div class="footer-right">
+            <a href="https://github.com/amandamullerg" target="_blank"><p class="footer-note">feito por miki :)</p></a>
+            <a href="https://github.com/amandamullerg" target="_blank"><img src="./imgs/logogit.png" alt="Github" ></a>
+        </div>
+    </footer>
+</body>
+</html>
